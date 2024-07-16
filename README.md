@@ -1,10 +1,23 @@
 - 👋 Hi, I’m @phuocpro1969
 - 👀 I’m interested in ML + Computer Vision
-- 🌱 I’m currently learning Advance Computer Vision + Deep 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-phuocpro1969/phuocpro1969 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 🌱 I’m currently working Backend Engineer and Devops
+  - Backend  
+    + [x] Nodejs and nestjs
+    + [x] TypeORM/Prisma
+    + [x] Redis
+    + [x] BullMQ | AWS SQS
+    + [x] Microservices
+    + [x] Lambda
+    + [x] Amplify
+  - Database
+    + [x] MongoDb
+    + [x] PostgresDB
+  - Devops
+    + [x] AWS
+    + [ ] GCP
+    + [x] Terraform
+    + [x] Docker 
+    + [x] Kubenetes
+    + [x] Habor
+    + [x] Prometheus + Grafana
+    + [ ] 
