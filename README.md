@@ -9,6 +9,8 @@
     + [x] Microservices
     + [x] Lambda
     + [x] Amplify
+    + [ ] SendGrid
+    + [x] Twillio
   - Database
     + [x] MongoDb
     + [x] PostgresDB
