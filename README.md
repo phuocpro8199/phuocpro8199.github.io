@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @phuocpro1969
 - 👀 I’m interested in ML + Computer Vision
-- 🌱 I’m currently working Backend Engineer and Devops
+- 🌱 I’m currently working Backend and Devops Engineer
   - Backend  
     + [x] Nodejs and nestjs
     + [x] TypeORM/Prisma
