@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Steven
-- 🌱 I’m currently working Backend and Devops Engineer
+- 🌱 I’m currently working at Fullstack Engineer
   - Backend  
     + [x] Nodejs and nestjs
     + [x] TypeORM/Prisma
@@ -8,14 +8,16 @@
     + [x] Microservices
     + [x] Lambda
     + [x] Amplify
-    + [ ] SendGrid
+    + [x] SendGrid
     + [x] Twillio
   - Database
     + [x] MongoDb
     + [x] PostgresDB
+    + [x] DynamoDB
+    + [x] Redis
   - Devops
     + [x] AWS
-    + [ ] GCP
+    + [x] GCP
     + [x] Terraform
     + [x] Docker 
     + [x] Kubenetes
