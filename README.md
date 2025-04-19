@@ -1,88 +1,87 @@
-# 👨‍💻 Phan Hoang Phuoc
+# Phan Hoang Phuoc
+### Fullstack and DevOps Engineer 🚀
 
-**Fullstack & DevOps Engineer (Mid-Level)**  
-📍 Thu Duc, HCMC, Vietnam  
-📧 phuocpro8199@gmail.com  
-📞 0981 415 287  
+[![Email](https://img.shields.io/badge/-phuocpro8199@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:phuocpro8199@gmail.com)
+[![Phone](https://img.shields.io/badge/-0981415287-25D366?style=flat&logo=whatsapp&logoColor=white)](tel:+840981415287)
+![Location](https://img.shields.io/badge/-Ho%20Chi%20Minh%20City,%20Vietnam-239120?style=flat)
 
-> Constantly learning and improving programming skills to build scalable, maintainable, and efficient systems.
+Experienced Fullstack and DevOps engineer with 4+ years of hands-on experience in blockchain, cloud infrastructure, and fullstack development. Passionate about building scalable systems and optimizing development workflows.
 
----
+## 🔧 Technical Skills
 
-## 🧠 Skills
+### **Cloud & DevOps**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-FF6C37?style=flat&logo=githubactions&logoColor=white)
 
-- **Languages**: JavaScript, TypeScript  
-- **Frameworks & Libraries**: NestJS, ExpressJS, ReactJS, Redux Toolkit, Tailwind CSS, Ant Design, Material UI, TanStack Query, React Hook Form, i18n  
-- **DevOps**: Docker, Kubernetes, Jenkins, ArgoCD, GitHub Actions, GitLab CI, AWS CodeBuild/Deploy/Pipeline  
-- **Cloud Platforms**: AWS (EKS, EC2, S3, Cognito, Lambda, RDS, IVS, etc.), GCP  
-- **Monitoring & Logging**: Prometheus, Grafana, Loki, Graylog, AWS CloudWatch, Sentry, SonarQube  
-- **Databases**: PostgreSQL, MongoDB, MySQL, Redis, DynamoDB  
-- **Infrastructure as Code**: Terraform  
-- **CI/CD Tools**: Jenkins, GitHub Actions, GitLab CI, ArgoCD  
-- **Others**: Web3, IPFS, Stripe, Momo, Onepay, Google Maps, Amap, Firebase, Sendgrid, OneSignal  
-- **OS**: Linux, Windows, macOS  
+### **Backend Development**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
----
+### **Frontend Development**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
+![MaterialUI](https://img.shields.io/badge/Material_UI-0081CB?style=flat&logo=mui&logoColor=white)
+
+### **Blockchain & Web3**
+![Web3](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
+
+## 💼 Professional Experience
+
+### **Fullstack Blockchain Engineer & DevOps**  
+**Space-fintech** | 2019 - 2022  
+- Built and maintained NFT marketplace with 10,000+ daily transactions
+- Implemented CI/CD pipelines using Jenkins and GitHub Actions
+- Developed blockchain solutions including Atomic Contracts and Token Swaps
+- Managed AWS/GCP infrastructure with Kubernetes and Terraform
+
+### **Backend & DevOps Engineer**  
+**Tego Global** | 2022 - 2023  
+- Implemented serverless architecture with AWS Lambda and DynamoDB
+- Built monitoring systems with Prometheus, Grafana, and Graylog
+- Managed Kubernetes clusters with ArgoCD for Sathapana Bank
+
+### **Frontend Engineer (Freelance)**  
+**Blueprint** | 2022 - 2023  
+- Developed task management system with React and Redux Toolkit
+- Implemented multi-language support using i18n
+- Built interactive UI components with Material UI and React Beautiful DND
+
+## 🏆 Notable Projects
+
+### **NFT Marketplace Platform**
+- Fullstack development of blockchain-based marketplace
+- Integrated Web3.js, IPFS, and smart contracts
+- Tech: React, Node.js, MongoDB, Web3, Kubernetes
+
+### **Banking Infrastructure Automation**
+- Automated deployment pipelines for banking system
+- Implemented monitoring with Prometheus/Grafana
+- Tech: AWS EKS, ArgoCD, Terraform, Bash
+
+### **Serverless Payment Gateway**
+- Built scalable payment processing system
+- Integrated Stripe, Momo, and Onepay
+- Tech: AWS Lambda, Node.js, DynamoDB
 
 ## 🎓 Education
+**University of Information Technology**  
+B.S. in Computer Science | GPA: 7.36/10 | 2017 - 2022
 
-**University of Information Technology (2017 - 2022)**  
-- Degree: Computer Science  
-- GPA: 7.36 / 10
+## 🌐 Languages
+- Vietnamese (Native)
+- English (Basic)
 
----
-
-## 💼 Work Experience
-
-### 🔹 Fullstack Blockchain Engineer & DevOps — *Space-Fintech* (2019–2022)
-- Developed smart contract automation, REST APIs, login/auth systems, NFT marketplaces.
-- Managed AWS/GCP infrastructure, CI/CD pipelines, proxy servers, and load balancing.
-- Used: Node.js, Express, React, MongoDB, Docker, Kubernetes, Jenkins, Swagger, Web3, Infura.
-
-### 🔹 Backend & DevOps Engineer — *Tego Global* (2022–2023)
-- Maintained bulk upload/export systems, Redis, email notifications.
-- Built backend for finance applications using AWS services (S3, DynamoDB, SNS, etc.).
-- Maintained Kubernetes cluster with GitLab runners, ArgoCD, and monitoring systems.
-
-### 🔹 Backend & DevOps Engineer — *Inbea* (2022–Now)
-- Architected infrastructure and CI/CD pipelines.
-- Built REST APIs for products, payments (Momo, Onepay), shipping integrations.
-- Connected AWS services (S3, IVS), created ETL pipelines.
-
-### 🔹 DevOps Engineer — *Moochies* (12/2022–Now)
-- Managed EKS, CI/CD, monitoring (Grafana, Prometheus), logging (Graylog), and alerting systems.
-
-### 🔹 Backend Engineer — *FindACarer* (5/2023–Now)
-- Built CSV import/export, distance-based search, AWS EventBridge cronjobs, Stripe payments.
-
-### 🔹 Backend Engineer — *Valuer* (8/2023–Now)
-- Integrated Salesforce API, AWS Cognito, and RDS.
-
-### 🔹 Backend Engineer — *Vivaleisure* (8/2023–Now)
-- Built payment gateway using AWS Lambda, Amplify, DynamoDB.
-
-### 🔹 Frontend Engineer — *Blueprint (Rivir Portal)* (5/2022–6/2023)
-- Implemented task/feed/folder/category management features.
-- Maintained role-based permissions and multiple languages.
-- Used: React, Redux Toolkit, Material UI, TanStack Query, Google Maps, Dropbox API.
-
----
-
-## 🔍 Interests
-
-- Traveling and cultural exploration  
-- Swimming, badminton  
-- Hanging out with friends and colleagues  
-
----
-
-## 🌐 Misc
-
-- English: Basic level  
-- GitHub, Bitbucket, AWS CodeCommit  
-- Nexus, NPM, Docker Hub, Harbor  
-- Notification services: Slack, Twilio, AWS SNS, Firebase, OneSignal
-
----
-
-Feel free to copy this into your repository as `README.md`. Let me know if you'd like a version with images, badges, or project links added!
+## 🎯 Interests
+- Blockchain technology
+- Cloud infrastructure optimization
+- Swimming and badminton
+- Traveling and cultural exchange
