@@ -1,7 +1,3 @@
-Here's a GitHub-style `README.md` for **Phan Hoang Phuoc** based on the content of the CV:
-
----
-
 # 👨‍💻 Phan Hoang Phuoc
 
 **Fullstack & DevOps Engineer (Mid-Level)**  
