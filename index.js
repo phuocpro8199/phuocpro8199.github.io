@@ -554,14 +554,67 @@ function renderEducation() {
   `;
 }
 
+function generatePdf() {
+  const element = document.querySelector(".cv-container");
+
+  if (!element) {
+    throw new Error("CV container element not found");
+  }
+
+  const { jsPDF } = window.jspdf;
+
+  const fileName = `Phan-Hoang-Phuoc-CV.pdf`;
+  const pageWidth = 210;
+  const pageHeight = 297;
+  const doc = new jsPDF({
+    orientation: "p",
+    unit: "mm",
+    format: [pageWidth, pageHeight],
+  });
+  let position = 0;
+
+  html2canvas(element).then(function (canvas) {
+    const imgData = canvas.toDataURL("image/jpeg");
+    const imgHeight = (canvas.height * pageWidth) / canvas.width;
+    let heightLeft = imgHeight;
+    do {
+      doc.addImage(imgData, "JPEG", 0, position, pageWidth, imgHeight);
+      heightLeft -= pageHeight;
+      position = heightLeft - imgHeight;
+      if (heightLeft > 0) doc.addPage();
+    } while (heightLeft > 0);
+
+    doc.save(fileName);
+  });
+}
+
+/**
+ * @param {Element} helper
+ */
+function renderGeneratePDFButton(helper) {
+  // create node the button
+  const pdfButton = document.createElement("button");
+  pdfButton.id = "generatePdf";
+  pdfButton.className = "pdf-button";
+  pdfButton.textContent = "Generate PDF";
+  pdfButton.addEventListener("click", generatePdf);
+
+  // insert node to helper
+  helper.appendChild(pdfButton);
+}
+
+function renderHelper() {
+  const helper = document.querySelector(".cv-helper");
+  renderGeneratePDFButton(helper);
+}
+
 // Initialize CV
 document.addEventListener("DOMContentLoaded", function () {
+  renderHelper();
   renderPersonalInfo();
   renderSkills();
   renderExperience();
   renderEducation();
-
-  // Initialize collapsible sections
   initCollapsibleSections();
 });
 
