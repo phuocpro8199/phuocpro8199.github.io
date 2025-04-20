@@ -1,0 +1,11 @@
+{
+  "tailwindAttributes": ["myClassList"],
+  "tailwindPreserveDuplicates": true,
+  "tailwindPreserveWhitespace": true,
+  "tailwindFunctions": ["tw", "clsx"],
+  "plugins": [
+    "prettier-plugin-svelte",
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ]
+}
