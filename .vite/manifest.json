@@ -1,0 +1,93 @@
+{
+  "_chunk-LSOULM7L-BgFOEEEr.js": {
+    "file": "assets/chunk-LSOULM7L-BgFOEEEr.js",
+    "name": "chunk-LSOULM7L"
+  },
+  "_home-gIPcZiEj.js": {
+    "file": "assets/home-gIPcZiEj.js",
+    "name": "home",
+    "imports": [
+      "_with-props-C9sO8p4W.js",
+      "_chunk-LSOULM7L-BgFOEEEr.js",
+      "_index-45kZ4ZGW.js"
+    ],
+    "dynamicImports": [
+      "node_modules/.pnpm/html2canvas@1.4.1/node_modules/html2canvas/dist/html2canvas.esm.js",
+      "node_modules/.pnpm/dompurify@3.2.5/node_modules/dompurify/dist/purify.es.mjs",
+      "node_modules/.pnpm/canvg@3.0.11/node_modules/canvg/lib/index.es.js"
+    ]
+  },
+  "_index-45kZ4ZGW.js": {
+    "file": "assets/index-45kZ4ZGW.js",
+    "name": "index",
+    "imports": [
+      "_chunk-LSOULM7L-BgFOEEEr.js"
+    ]
+  },
+  "_with-props-C9sO8p4W.js": {
+    "file": "assets/with-props-C9sO8p4W.js",
+    "name": "with-props",
+    "imports": [
+      "_chunk-LSOULM7L-BgFOEEEr.js"
+    ]
+  },
+  "app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-BRTomMk8.js",
+    "name": "root",
+    "src": "app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_with-props-C9sO8p4W.js",
+      "_chunk-LSOULM7L-BgFOEEEr.js"
+    ],
+    "css": [
+      "assets/root-Df_biOyM.css"
+    ]
+  },
+  "app/routes/home.tsx?__react-router-build-client-route": {
+    "file": "assets/home-BFDeqT4J.js",
+    "name": "home",
+    "src": "app/routes/home.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_home-gIPcZiEj.js",
+      "_with-props-C9sO8p4W.js",
+      "_chunk-LSOULM7L-BgFOEEEr.js",
+      "_index-45kZ4ZGW.js"
+    ]
+  },
+  "node_modules/.pnpm/@react-router+dev@7.5.1_@react-router+serve@7.5.1_react-router@7.5.1_react-dom@19.1.0_r_461469edd158ee3394e305a5ce94f09f/node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
+    "file": "assets/entry.client-BTd5Xoee.js",
+    "name": "entry.client",
+    "src": "node_modules/.pnpm/@react-router+dev@7.5.1_@react-router+serve@7.5.1_react-router@7.5.1_react-dom@19.1.0_r_461469edd158ee3394e305a5ce94f09f/node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-LSOULM7L-BgFOEEEr.js",
+      "_index-45kZ4ZGW.js"
+    ]
+  },
+  "node_modules/.pnpm/canvg@3.0.11/node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-2Zo2OOwi.js",
+    "name": "index.es",
+    "src": "node_modules/.pnpm/canvg@3.0.11/node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-LSOULM7L-BgFOEEEr.js",
+      "_home-gIPcZiEj.js",
+      "_with-props-C9sO8p4W.js",
+      "_index-45kZ4ZGW.js"
+    ]
+  },
+  "node_modules/.pnpm/dompurify@3.2.5/node_modules/dompurify/dist/purify.es.mjs": {
+    "file": "assets/purify.es-Bf0oSh3b.js",
+    "name": "purify.es",
+    "src": "node_modules/.pnpm/dompurify@3.2.5/node_modules/dompurify/dist/purify.es.mjs",
+    "isDynamicEntry": true
+  },
+  "node_modules/.pnpm/html2canvas@1.4.1/node_modules/html2canvas/dist/html2canvas.esm.js": {
+    "file": "assets/html2canvas.esm-CBrSDip1.js",
+    "name": "html2canvas.esm",
+    "src": "node_modules/.pnpm/html2canvas@1.4.1/node_modules/html2canvas/dist/html2canvas.esm.js",
+    "isDynamicEntry": true
+  }
+}
