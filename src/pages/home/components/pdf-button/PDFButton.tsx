@@ -5,7 +5,7 @@ import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas-pro";
 
 type PDFButtonProps = {
-  cvContainerRef?: React.RefObject<HTMLDivElement>;
+  cvContainerRef: React.RefObject<HTMLDivElement | null>
 };
 
 const PDFButton: React.FC<PDFButtonProps> = ({cvContainerRef}) => {

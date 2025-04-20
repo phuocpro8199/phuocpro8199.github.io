@@ -3,7 +3,7 @@ import PDFButton from "@pages/home/components/pdf-button/PDFButton";
 import { Flex } from "antd";
 
 type CVHelperProps = {
-  cvContainerRef?: React.RefObject<HTMLDivElement>;
+  cvContainerRef: React.RefObject<HTMLDivElement | null>
 };
 
 const CVHelper: React.FC<CVHelperProps> = ({cvContainerRef}) => {

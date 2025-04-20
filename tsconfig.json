@@ -1,36 +1,7 @@
 {
-  "include": [
-    "**/*",
-    "**/.server/**/*",
-    "**/.client/**/*",
-    ".react-router/types/**/*"
-  ],
-  "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "types": ["node", "vite/client"],
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "bundler",
-    "jsx": "react-jsx",
-    "rootDirs": [".", "./.react-router/types"],
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
-    "noEmit": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-    "paths": {
-      "@pages/*": ["app/pages/*"],
-      "@routers/*": ["app/routers/*"],
-      "@utils/*": ["app/utils/*"],
-      "@public/*": ["public/*"],
-      "@/*": ["app/*"]
-    },
-  }
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
