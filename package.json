@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "https://phuocpro8199.github.io",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "pnpm build",
     "deploy": "gh-pages -d build",
     "build": "react-router build",
     "dev": "react-router dev",
