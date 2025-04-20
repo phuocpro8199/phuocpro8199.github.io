@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+:root{
+  --transition-speed: 0.3s;
+  --primary: #2563eb; /* More vibrant blue */
+  --secondary: #1e40af; /* Darker blue */
+}
+
+
+.cv-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
