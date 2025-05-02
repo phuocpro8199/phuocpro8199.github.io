@@ -163,7 +163,7 @@
       },
       {
         "name": "CDN",
-        "items": ["CloudFlare", "DNS make esay", "AWS Route53", "NameSilo"]
+        "items": ["CloudFlare", "DNS make easy", "AWS Route53", "NameSilo"]
       },
       {
         "name": "Platform",
@@ -348,24 +348,45 @@
             "Send Email"
           ],
           "tools": [
-            "Nodejs express + typeorm, Symfony, Redis, MySQL, Sendgrid, Bitbucket, Docker"
+            "Nodejs",
+            "express",
+            "typeorm", 
+            "Symfony", 
+            "Redis", 
+            "MySQL",
+            "Sendgrid",
+            "Bitbucket", 
+            "Docker"
           ]
         },
         {
-          "name": "3/2022-5/2023: Sathapana Bank - Oursource - Devops",
+          "name": "3/2022-5/2023: Sathapana Bank - Outsource - Devops",
           "tasks": [
-            "Build resource system management: gitlab, runner, nexus, habor, ...",
+            "Build resource system management: gitlab, runner, nexus, ...",
             "Maintain Kubernetes management system: ArgoCD, K8S, Habor, Loki, Prometheus"
           ],
           "tools": [
-            "Gitlab, gitlab runner, nexus, habor, ArgoCD, Kubernetes, Loki, Prometheus, Grafana, Bash Script, Docker, Ubuntu, Windows Server"
+            "Gitlab", 
+            "gitlab runner",
+            "nexus", 
+            "habor", 
+            "ArgoCD",
+            "Kubernetes",
+            "Loki",
+            "Prometheus",
+            "Grafana", 
+            "Bash Script", 
+            "Docker",
+            "Ubuntu", 
+            "Windows Server"
           ]
         },
         {
           "name": "5/2022-7/2022: Abhi finance - Outsource - Backend",
           "tasks": [
             "Build bulk upload file, export report",
-            "BuildCI/CDjenskin"
+            "deploy jenskin",
+            "Build CI/CD"
           ],
           "tools": ["Jenkins, AWS CodeDeploy, Gitlab, ArgoCD"]
         }
@@ -394,7 +415,34 @@
             "Comment and chat"
           ],
           "tools": [
-            "Kubernetes, HA proxy, nginx, Jenkins, github actions, docker, ZeroSSL, NameSilo, Bash Script, Zsh Script, Ubuntu and Macos, Nodejs ExpressJs + MongoClient, Redis, mongoDB, Swagger, socket IO, ReactJS, Redux Toolkit, Floara Editor, CASL, Material UI, i18n, google maps, React query, web3, Infura, IPFS"
+            "Kubernetes", 
+            "HA proxy", 
+            "nginx",
+            "Jenkins",
+            "github actions",
+            "docker",
+            "ZeroSSL",
+            "NameSilo",
+            "Bash Script",
+            "Zsh Script", 
+            "Ubuntu and Macos", 
+            "Nodejs",
+            "ExpressJs",
+            "Mongo",
+            "Redis",
+            "Swagger",
+            "socket IO",
+            "ReactJS",
+            "Redux Toolkit",
+            "Floara Editor",
+            "CASL", 
+            "Material UI",
+            "i18n",
+            "google maps",
+            "React query",
+            "web3",
+            "Infura",
+            "IPFS"
           ]
         }
       ]
@@ -402,7 +450,7 @@
     {
       "name": "Frontend Engineer",
       "company": "Blueprint",
-      "period": "2022 - 2023",
+      "period": "2022 - 2024",
       "details": [
         {
           "name": "5/2022-6/2024: Rivir Portal- Freelancer - Frontend",
@@ -412,10 +460,21 @@
             "Build Task management",
             "Build Feed system",
             "Multiple language",
+            "Build Editor",
             "Build Folder management"
           ],
           "tools": [
-            "React, redux-toolkit, material UI. tanstack query, Aggrid, google maps, casl, i18n, dropbox, react beautiful dnd, firebase"
+            "React", 
+            "redux-toolkit", 
+            "material UI",
+            "tanstack query",
+            "Aggrid",
+            "google maps",
+            "casl", 
+            "i18n",
+            "dropbox",
+            "react beautiful dnd",
+            "firebase"
           ]
         }
       ]
