@@ -92,13 +92,14 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
                                   <Text strong className="!text-blue-800">
                                     <ToolOutlined className="mr-2" /> Technologies Used
                                   </Text>
+                                  <br/>
                                   <Space className="mt-3" size={[8, 8]} wrap>
                                     {detail.tools.length === 1
                                       ? detail.tools[0].split(/,\s*/).map((tool, i) => (
                                           <Tag
                                             key={i}
                                             color="blue"
-                                            className="px-3 py-1 rounded-full hover:scale-105 transition-transform"
+                                            className="px-3 py-1 rounded-full hover:scale-105 transition-transform wrap-normal"
                                           >
                                             {tool.trim()}
                                           </Tag>

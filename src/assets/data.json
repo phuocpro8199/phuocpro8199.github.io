@@ -281,14 +281,18 @@
         {
           "name": "2/2025-now: TopTopMax - Outsource - Backend",
           "tasks": [
-            "Build crawl template, product",
-            "Build Brand, Category product",
-            "Load and Sync data with Tiktok",
-            "Update upload file system"
+            "Build crawl template product",
+            "Build Brand, Category, Product, store, warehouse",
+            "Load and auto Sync data with Tiktok",
+            "Update upload file for system"
           ],
           "tools": [
-            "Nestjs, Mongo, AWS S3",
-            "Axios, Redis"
+            "Nestjs",
+            "Mongo",
+            "AWS S3",
+            "Axios",
+            "Redis",
+            "Agenda"
           ]
         },
         {
@@ -300,9 +304,22 @@
           "tools": [
             "Microservice",
             "Redis",
-            "Node: Nestjs, BullMq, BullDashboard",
-            "Python: Flask, BluePrint, RQ, RqDashboard, scrapy, selenium, cloudflare",
-            "AWS: Route53, S3, RDS, EC2, Certificate Manager, CloudFront",
+            "Nestjs",
+            "BullMq",
+            "BullDashboard",
+            "Flask",
+            "BluePrint",
+            "RQ",
+            "RqDashboard",
+            "scrapy",
+            "selenium",
+            "cloudflare",
+            "AWS Route53",
+            "AWS S3",
+            "AWS RDS",
+            "AWS EC2",
+            "AWS Certificate Manager",
+            "CloudFront",
             "Docker",
             "cloudflare"
           ]
@@ -354,7 +371,21 @@
             "CloudFlare"
           ],
           "tools": [
-            "EKS, docker, Harbor, Cloudwatch, grafana, SES, SNS, twillio, Cognito, Mongo, Terraform, bash, gitlabCI, Google wallet, Apple wallet, Firebase"
+            "EKS",
+            "docker, Harbor",
+            "Cloudwatch",
+            "grafana",
+            "SES",
+            "SNS",
+            "twillio",
+            "Cognito",
+            "Mongo",
+            "Terraform",
+            "bash",
+            "gitlabCI",
+            "Google wallet",
+            "Apple wallet",
+            "Firebase"
           ]
         },
         {
@@ -399,7 +430,7 @@
             "Build migration ETL data"
           ],
           "tools": [
-            "Ubuntu, bash script, Docker, nginx, github action"
+            "Ubuntu", "bash script", "Docker", "nginx", "github action"
           ]
         },
         {
@@ -495,7 +526,7 @@
             "Build CI/CD"
           ],
           "tools": [
-            "Jenkins, AWS CodeDeploy, Gitlab, ArgoCD"
+            "Jenkins", "AWS CodeDeploy", "Gitlab", "ArgoCD"
           ]
         }
       ]
