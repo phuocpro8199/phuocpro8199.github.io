@@ -15,202 +15,262 @@
     }
   },
   "skills": [
-      {
-        "name": "Language",
-        "items": ["Javascript", "Typescript", "Python"]
-      },
-      {
-        "name": "Frontend",
-        "items": [
-          "ReactJS",
-          "TanStack Query",
-          "Redux-toolkit",
-          "Google Maps",
-          "React Beautiful dnd",
-          "React Hook form",
-          "Ant Design",
-          "Material UI",
-          "Nextjs",
-          "Firebase",
-          "Stripe",
-          "Axios"
-        ]
-      },
-      {
-        "name": "Backend",
-        "items": ["Nodejs", "NestJs (ExpressJs)", "Python (Bluesprint, flask)"]
-      },
-      {
-        "name": "DB",
-        "items": [
-          "Mysql",
-          "PostgresDB",
-          "Postgres(AWS RDS)",
-          "MongoDB",
-          "Redis",
-          "DynamoDB"
-        ]
-      },
-      {
-        "name": "Queues",
-        "items": ["SQS", "Bull", "BullMQ", "AgendaJob", "RQ(Python)"]
-      },
-      {
-        "name": "Operating System",
-        "items": ["Linux", "Windows", "Macos"]
-      },
-      {
-        "name": "Containers/Serverless",
-        "items": [
-          "docker",
-          "podman",
-          "kubernetes",
-          "Lambda",
-          "AWS EKS",
-          "AWS Amplify",
-          "AWS ECS"
-        ]
-      },
-      {
-        "name": "AWS",
-        "items": [
-          "SQS",
-          "Bridge",
-          "RDS",
-          "Certificate Manager",
-          "EC2",
-          "ECR",
-          "Cognito",
-          "S3",
-          "Glue",
-          "Athena",
-          "RedShift",
-          "Appsync",
-          "pinpoint",
-          "CodeCommit",
-          "CodeBuild",
-          "CodePipeline",
-          "SES",
-          "SNS",
-          "CloudWatch",
-          "Amplify"
-        ]
-      },
-      {
-        "name": "Payment",
-        "items": ["Stripe", "Momo", "Onepay"]
-      },
-      {
-        "name": "Application Errors",
-        "items": ["Sentry", "sonarQube", "NewRelic"]
-      },
-      {
-        "name": "Notification/Mail/SMS",
-        "items": [
-          "Slack",
-          "twillo",
-          "AWS SNS",
-          "Sendgrid",
-          "OneSignal",
-          "AWS Pinpoint",
-          "Brevo"
-        ]
-      },
-      {
-        "name": "Logs/Monitoring",
-        "items": [
-          "AWS Cloud Watch",
-          "Prometheus",
-          "Grafana",
-          "Graylog",
-          "AWS Athena"
-        ]
-      },
-      {
-        "name": "Wallet",
-        "items": ["Google", "apple"]
-      },
-      {
-        "name": "File Tools",
-        "items": ["S3", "Multer", "Puperteer", "ExcelJs", "Docx", "PapaParse"]
-      },
-      {
-        "name": "Maps",
-        "items": ["Amap", "google maps"]
-      },
-      {
-        "name": "CI",
-        "items": [
-          "Github actions",
-          "Gitlab CI",
-          "Travis Ci",
-          "AWS CodeBuild",
-          "AWS CodePipeline",
-          "Jenkins"
-        ]
-      },
-      {
-        "name": "CD",
-        "items": [
-          "NestJs (typescript) + typeorm + swagger + microservice + Postgres-replica",
-          "Redis-sentinel",
-          "Bull",
-          "One-Signal",
-          "Cronjob + ETL",
-          "AWS Service: S3, IVS",
-          "Momo, Onepay, Goship"
-        ]
-      },
-      {
-        "name": "CDN",
-        "items": ["CloudFlare", "DNS make easy", "AWS Route53", "NameSilo"]
-      },
-      {
-        "name": "Platform",
-        "items": ["AWS", "GCP"]
-      },
-      {
-        "name": "Task Management",
-        "items": [
-          "Jira",
-          "Trello",
-          "Clickup",
-          "Bitbucket",
-          "MatterMost",
-          "Slack",
-          "Gitlab",
-          "Tekup"
-        ]
-      },
-      {
-        "name": "Agile",
-        "items": ["Scrum"]
-      },
-      {
-        "name": "Code Tools",
-        "items": [
-          "vscode",
-          "eslint",
-          "prettier",
-          "husky",
-          "gitlen",
-          "redis",
-          "mongo",
-          "dbaever",
-          "Docker",
-          "podman",
-          "terraform",
-          "Jupiter",
-          "ssh",
-          "python",
-          "node",
-          "CodeLint"
-        ]
-      },
-      {
-        "name": "English",
-        "items": ["Basic Level"]
-      }
+    {
+      "name": "Language",
+      "items": [
+        "Javascript",
+        "Typescript",
+        "Python"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "items": [
+        "ReactJS",
+        "TanStack Query",
+        "Redux-toolkit",
+        "Google Maps",
+        "React Beautiful dnd",
+        "React Hook form",
+        "Ant Design",
+        "Material UI",
+        "Nextjs",
+        "Firebase",
+        "Stripe",
+        "Axios"
+      ]
+    },
+    {
+      "name": "Backend",
+      "items": [
+        "Nodejs",
+        "NestJs",
+        "ExpressJs",
+        "Python",
+        "Blue Print",
+        "flask"
+      ]
+    },
+    {
+      "name": "DB",
+      "items": [
+        "Mysql",
+        "Postgres",
+        "MongoDB",
+        "Redis",
+        "DynamoDB"
+      ]
+    },
+    {
+      "name": "Queues",
+      "items": [
+        "SQS",
+        "Bull",
+        "BullMQ",
+        "AgendaJob",
+        "RQ"
+      ]
+    },
+    {
+      "name": "Operating System",
+      "items": [
+        "Linux",
+        "Windows",
+        "Macos"
+      ]
+    },
+    {
+      "name": "Containers/Serverless",
+      "items": [
+        "docker",
+        "podman",
+        "kubernetes",
+        "Lambda",
+        "AWS EKS",
+        "AWS Amplify",
+        "AWS ECS"
+      ]
+    },
+    {
+      "name": "AWS",
+      "items": [
+        "SQS",
+        "Bridge",
+        "RDS",
+        "Certificate Manager",
+        "EC2",
+        "ECR",
+        "Cognito",
+        "S3",
+        "Glue",
+        "Athena",
+        "RedShift",
+        "Appsync",
+        "pinpoint",
+        "CodeCommit",
+        "CodeBuild",
+        "CodePipeline",
+        "SES",
+        "SNS",
+        "CloudWatch",
+        "Amplify"
+      ]
+    },
+    {
+      "name": "Payment",
+      "items": [
+        "Stripe",
+        "Momo",
+        "Onepay"
+      ]
+    },
+    {
+      "name": "Application Errors",
+      "items": [
+        "Sentry",
+        "sonarQube",
+        "NewRelic"
+      ]
+    },
+    {
+      "name": "Notification/Mail/SMS",
+      "items": [
+        "Slack",
+        "twillo",
+        "AWS SNS",
+        "SendGrid",
+        "OneSignal",
+        "AWS Pinpoint",
+        "Brevo"
+      ]
+    },
+    {
+      "name": "Logs/Monitoring",
+      "items": [
+        "AWS Cloud Watch",
+        "Prometheus",
+        "Grafana",
+        "Graylog",
+        "AWS Athena"
+      ]
+    },
+    {
+      "name": "Wallet",
+      "items": [
+        "Google",
+        "apple"
+      ]
+    },
+    {
+      "name": "File Tools",
+      "items": [
+        "S3",
+        "Multer",
+        "Puperteer",
+        "ExcelJs",
+        "Docx",
+        "PapaParse"
+      ]
+    },
+    {
+      "name": "Maps",
+      "items": [
+        "Amap",
+        "google maps"
+      ]
+    },
+    {
+      "name": "CI",
+      "items": [
+        "Github actions",
+        "Gitlab CI",
+        "Travis Ci",
+        "AWS CodeBuild",
+        "AWS CodePipeline",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "CD",
+      "items": [
+        "NestJs",
+        "typescript",
+        "typeorm",
+        "swagger",
+        "microservice",
+        "Postgres-replica",
+        "Redis-sentinel",
+        "Bull",
+        "One-Signal",
+        "Cronjob + ETL",
+        "AWS: S3, IVS",
+        "Momo",
+        "Onepay",
+        "Goship"
+      ]
+    },
+    {
+      "name": "CDN",
+      "items": [
+        "CloudFlare",
+        "DNS make easy",
+        "AWS Route53",
+        "NameSilo"
+      ]
+    },
+    {
+      "name": "Platform",
+      "items": [
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Task Management",
+      "items": [
+        "Jira",
+        "Trello",
+        "Clickup",
+        "Bitbucket",
+        "MatterMost",
+        "Slack",
+        "Gitlab",
+        "Tekup"
+      ]
+    },
+    {
+      "name": "Agile",
+      "items": [
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Code Tools",
+      "items": [
+        "vscode",
+        "eslint",
+        "prettier",
+        "husky",
+        "gitlens",
+        "redis",
+        "mongo",
+        "dbaever",
+        "Docker",
+        "podman",
+        "terraform",
+        "Jupiter",
+        "ssh",
+        "python",
+        "node",
+        "CodeLint"
+      ]
+    },
+    {
+      "name": "English",
+      "items": [
+        "Basic Level"
+      ]
+    }
   ],
   "experience": [
     {
@@ -226,7 +286,10 @@
             "Load and Sync data with Tiktok",
             "Update upload file system"
           ],
-          "tools": ["Nestjs, Mongo, AWS S3", "Axios, Redis"]
+          "tools": [
+            "Nestjs, Mongo, AWS S3",
+            "Axios, Redis"
+          ]
         },
         {
           "name": "12/2024-4/2025: PFS Consulting - Ousource - Backend",
@@ -249,13 +312,36 @@
           "tasks": [
             "Build Infrastructure EC2, Gitlab CI/CD, ECR, Mongo, EC2 through Terraform",
             "Deploy tag version builder, docker",
-            "Gitlab selfhost, DNS, Gitlab Runner",
+            "Gitlab self-host, DNS, Gitlab Runner",
             "Cloudwatch, grafana",
             "Sentry, NewRelic",
             "CloudFlare"
           ],
           "tools": [
-            "EKS, docker, Harbor, Cloudwatch, grafana, SES, SNS, twillio, Cognito, SMS and email bussiness, Brevo, Redis, Mongo, Terraform, bash, gitlab, Goole wallet, Apple wallet, Firebase, grafana Sentry, NewRelic, CloudFlare"
+            "EKS",
+            "docker",
+            "Harbor",
+            "Cloudwatch",
+            "grafana",
+            "SES",
+            "SNS",
+            "twillio",
+            "Cognito",
+            "SMS",
+            "email",
+            "Brevo",
+            "Redis",
+            "Mongo",
+            "Terraform",
+            "bash",
+            "gitlab",
+            "Google wallet",
+            "Apple wallet",
+            "Firebase",
+            "grafana",
+            "Sentry",
+            "NewRelic",
+            "CloudFlare"
           ]
         },
         {
@@ -263,12 +349,12 @@
           "tasks": [
             "Build Infrastructure EKS, gitlab CI/CD, Harbor, Mongo, EC2 through Terraform",
             "Deploy tag version builder",
-            "Build Harbor, Gitlab selfhost, DNS, Gitlab Runner",
+            "Build Harbor, Gitlab self-host, DNS, Gitlab Runner",
             "Build Logger",
             "CloudFlare"
           ],
           "tools": [
-            "EKS, docker, Harbor, Cloudwatch, grafana, SES, SNS, twillio, Cognito, Mongo, Terraform, bash, gitlabCI, Goole wallet, Apple wallet, Firebase"
+            "EKS, docker, Harbor, Cloudwatch, grafana, SES, SNS, twillio, Cognito, Mongo, Terraform, bash, gitlabCI, Google wallet, Apple wallet, Firebase"
           ]
         },
         {
@@ -293,7 +379,7 @@
             "Connect Saleforces and Contact Saleforces using for custom sale"
           ],
           "tools": [
-            "Ubuntu, bash script, Saleforce API, Maven, AWS Service: Cognito, RDS"
+            "Ubuntu, bash script, Saleforces API, Maven, AWS Service: Cognito, RDS"
           ]
         },
         {
@@ -312,7 +398,9 @@
             "Build ElasticSearch",
             "Build migration ETL data"
           ],
-          "tools": ["Ubuntu, bash script, Docker, nginx, github action"]
+          "tools": [
+            "Ubuntu, bash script, Docker, nginx, github action"
+          ]
         },
         {
           "name": "12/2022-8/2024: Moochies - Outsource - Devops",
@@ -324,7 +412,25 @@
             "Connect AWS Service: Cognito, Pinpoint,..."
           ],
           "tools": [
-            "Ubuntu, bash script, Docker, nginx, github action, AWS Service: EKS, Route53, LoadBalancer, ECR, Pinpoint, Dns make easy, Sectigo SSL, Broker, Amap, Firebase, Sentry, Grafana, Prometheus, Graylog"
+            "Ubuntu",
+            "bash script",
+            "Docker",
+            "nginx",
+            "github action",
+            "AWS Service: EKS",
+            "Route53",
+            "LoadBalancer",
+            "ECR",
+            "Pinpoint",
+            "Dns make easy",
+            "Sectigo SSL",
+            "Broker",
+            "Amap",
+            "Firebase",
+            "Sentry",
+            "Grafana",
+            "Prometheus",
+            "Graylog"
           ]
         },
         {
@@ -350,12 +456,12 @@
           "tools": [
             "Nodejs",
             "express",
-            "typeorm", 
-            "Symfony", 
-            "Redis", 
+            "typeorm",
+            "Symfony",
+            "Redis",
             "MySQL",
             "Sendgrid",
-            "Bitbucket", 
+            "Bitbucket",
             "Docker"
           ]
         },
@@ -363,21 +469,21 @@
           "name": "3/2022-5/2023: Sathapana Bank - Outsource - Devops",
           "tasks": [
             "Build resource system management: gitlab, runner, nexus, ...",
-            "Maintain Kubernetes management system: ArgoCD, K8S, Habor, Loki, Prometheus"
+            "Maintain Kubernetes management system: ArgoCD, K8S, Harbor, Loki, Prometheus"
           ],
           "tools": [
-            "Gitlab", 
+            "Gitlab",
             "gitlab runner",
-            "nexus", 
-            "habor", 
+            "nexus",
+            "harbor",
             "ArgoCD",
             "Kubernetes",
             "Loki",
             "Prometheus",
-            "Grafana", 
-            "Bash Script", 
+            "Grafana",
+            "Bash Script",
             "Docker",
-            "Ubuntu", 
+            "Ubuntu",
             "Windows Server"
           ]
         },
@@ -388,7 +494,9 @@
             "deploy jenskin",
             "Build CI/CD"
           ],
-          "tools": ["Jenkins, AWS CodeDeploy, Gitlab, ArgoCD"]
+          "tools": [
+            "Jenkins, AWS CodeDeploy, Gitlab, ArgoCD"
+          ]
         }
       ]
     },
@@ -415,8 +523,8 @@
             "Comment and chat"
           ],
           "tools": [
-            "Kubernetes", 
-            "HA proxy", 
+            "Kubernetes",
+            "HA proxy",
             "nginx",
             "Jenkins",
             "github actions",
@@ -424,8 +532,8 @@
             "ZeroSSL",
             "NameSilo",
             "Bash Script",
-            "Zsh Script", 
-            "Ubuntu and Macos", 
+            "Zsh Script",
+            "Ubuntu and Macos",
             "Nodejs",
             "ExpressJs",
             "Mongo",
@@ -435,7 +543,7 @@
             "ReactJS",
             "Redux Toolkit",
             "Floara Editor",
-            "CASL", 
+            "CASL",
             "Material UI",
             "i18n",
             "google maps",
@@ -464,13 +572,13 @@
             "Build Folder management"
           ],
           "tools": [
-            "React", 
-            "redux-toolkit", 
+            "React",
+            "redux-toolkit",
             "material UI",
             "tanstack query",
             "Aggrid",
             "google maps",
-            "casl", 
+            "casl",
             "i18n",
             "dropbox",
             "react beautiful dnd",
@@ -480,10 +588,12 @@
       ]
     }
   ],
-  "education": [{
-    "degree": "Computer Science",
-    "school": "University of Information Technology",
-    "period": "2017 - 2022",
-    "gpa": "2.94/4"
-  }]
+  "education": [
+    {
+      "degree": "Computer Science",
+      "school": "University of Information Technology",
+      "period": "2017 - 2022",
+      "gpa": "2.94/4"
+    }
+  ]
 }
